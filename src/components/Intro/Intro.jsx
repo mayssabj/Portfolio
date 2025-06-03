@@ -16,12 +16,10 @@ const Intro = () => {
         <div className="intro">
             <div className="i-left">
                 <div className="i-name">
-                    <span>Salut! c'est </span>
+                    <span>Hello ! I'm </span>
                     <span>BEN JOUD Mayssa</span>
-                    <span>Je suis une étudiante diplômée en licence en 
-                        science informatique spécialité Génie logiciel 
-                        et système d'information à l'ISIM de Monastir
-                        et encore je continue le cycle d'ingénieur à l'ESPRIT</span>
+                    <span>I am a graduate student in computer science specializing in software engineering and information systems and
+                        currently, I am pursuing my engineering studies at ESPRIT (Private Higher School of Engineering and Technology) to deepen my expertise in the field and enhance my professional and technical skills.</span>
                 </div>
                 <div className="i-icons">
                     <a href="https://github.com/mayssabj"><img src={Github} alt="Github" /></a>

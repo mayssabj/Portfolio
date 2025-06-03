@@ -10,7 +10,12 @@ import mobile from "../../img/mobile.jpg";
 import spansor from "../../img/SponsoringController-.png";
 import C1 from "../../img/C1.png";
 import path from "../../img/path.jpg";
+import MENUU from "../../img/MENUU.png";
+import P1 from "../../img/P1.png";
+import GRAFANA from "../../img/GRAFANA.png";
+import INSTANCE from "../../img/INSTANCE.png";
 import { themeContext } from "../../Context";
+import { GrFacebook } from "react-icons/gr";
 
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -28,6 +33,20 @@ const Portfolio = () => {
       grabCursor={true}
         className="portfolio-slider"
       >
+        <SwiperSlide>
+
+          <img src={INSTANCE} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={GRAFANA} alt="" />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img src={P1} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={MENUU} alt="" />
+        </SwiperSlide>
         <SwiperSlide>
           <img src={AAA} alt="" />
         </SwiperSlide>
